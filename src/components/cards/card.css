@@ -1,0 +1,27 @@
+.card {
+  background-color: var(--card);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+.card:hover {
+    background-color: hsl(216, 50%, 20%);
+    box-shadow: 0 0 25px black;
+  }
+
+.card img {
+  border-radius: 0.5rem;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.card-detail p {
+  color: var(--softblue);
+}
+.card-detail .age{
+    color: var(--cyan);
+    font-weight: 600;
+}
+.bdaymsg{
+  color: var(--cyan)
+}

@@ -1,0 +1,8 @@
+small{
+    padding: 0.5rem;
+    background-color: var(--card);
+    margin-top: 1rem;
+    text-align: center;
+   display: block;
+    
+}
