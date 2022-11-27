@@ -168,6 +168,27 @@ export default [
     imageurl:"https://th.bing.com/th/id/OIP.PbF3WezM1nKlzuZN0F9WrAAAAA?pid=ImgDet&rs=1",
     dob: { year: 1963, month: 6, date: 9 },
   },
+  {
+    id: 25,
+    name: "Amrit",
+    interest: "All Rounder",
+    imageurl:"https://th.bing.com/th/id/OIP.PbF3WezM1nKlzuZN0F9WrAAAAA?pid=ImgDet&rs=1",
+    dob: { year: 1988, month: 7, date: 10 },
+  },
+  {
+    id: 26,
+    name: "Aaljan",
+    interest: "Gorkhali Tiger",
+    imageurl:"https://scontent.fktm7-1.fna.fbcdn.net/v/t31.18172-8/10608544_479348015556680_7150262245956302601_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=19026a&_nc_ohc=MRGdIY1dSqcAX9wtVEh&_nc_ht=scontent.fktm7-1.fna&oh=00_AfCjnF1lYchh9vgT3lNTIxlM6LCl620s4juIZZnfpWWYxQ&oe=63AB18F8",
+    dob: { year: 1995, month: 3, date: 18 },
+  },
+   {
+    id: 26,
+    name: "Dinesh",
+    interest: "Germany",
+    imageurl:"https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/308080367_2711683102298264_493995701594005313_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=67i4_YKUCbYAX9hljGQ&_nc_ht=scontent.fktm7-1.fna&oh=00_AfDDBkXdKAoQERESduoGDV1t1lntLI45GHgfAT9o8istCw&oe=63883884",
+    dob: { year: 1993, month: 9, date: 28 },
+  },
 
   
   
