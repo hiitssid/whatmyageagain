@@ -23,5 +23,17 @@
     font-weight: 600;
 }
 .bdaymsg{
-  color: var(--cyan)
+  color: orange;
+  font-weight: 800;
+  font-size: 18px;
+  /* color: var(--cyan) */
 }
+
+
+.hbd{
+  background: linear-gradient(-45deg, #000000 0%, #02011d 13%, #150038 25%, #250043 38%, #0d0059 50%, #002687 62%, #0038b0 75%, #0d006d 87%, #0e003d 100%);;
+  border: 2px solid lime;
+  /* border: 2px solid var(--bdaycard); */
+}
+
+
