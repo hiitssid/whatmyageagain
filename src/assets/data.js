@@ -31,7 +31,7 @@ export default [
     id: 5,
     name: "Rajiv",
     interest: "Computer Genius",
-    imageurl: "rajiv.jpg",
+    image: "rajiv.jpg",
     dob: { year: 1991, month: 5, date: 11 },
   },
   {
@@ -185,7 +185,7 @@ export default [
     id: 27,
     name: "Dinesh",
     interest: "Germany",
-    imageurl:"https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/308080367_2711683102298264_493995701594005313_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=67i4_YKUCbYAX9hljGQ&_nc_ht=scontent.fktm7-1.fna&oh=00_AfDDBkXdKAoQERESduoGDV1t1lntLI45GHgfAT9o8istCw&oe=63883884",
+    image: "dinesh.jpg",
     dob: { year: 1993, month: 9, date: 28 },
   },
 

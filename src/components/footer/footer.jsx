@@ -7,8 +7,9 @@ export default function Footer() {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        This project helped to understand props.
+        {/* This project helped to understand props. */}
+        Last Updated : 16th December 2022
       </a>
-    </small>
+      </small>
   );
 }

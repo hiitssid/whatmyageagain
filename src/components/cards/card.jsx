@@ -1,4 +1,8 @@
 import "./card.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React,{useEffect} from "react";
+AOS.init();
 export default function Card(props) {
   const todayDate = new Date();
   const currnetYear = todayDate.getFullYear();
@@ -29,23 +33,14 @@ export default function Card(props) {
     day = 31 + currentDate - props.item.dob.date;
   }
 
+
   return (
-    <div
-      className="card"
-      style={
-        currentMonth == props.item.dob.month &&
-        currentDate == props.item.dob.date
-          ? { border: "2px solid var(--bdaycard)" }
-          : {}
-      }
+   
+    <div data-aos="zoom-in"
+      className={currentMonth == props.item.dob.month &&
+        currentDate == props.item.dob.date? "card hbd" : "card"}
     >
-      <img
-        src={
-          props.item.image
-            ? `src/assets/${props.item.image}`
-            : props.item.imageurl
-        }
-      />
+      <img src={props.item.image ? `src/assets/${props.item.image}`: props.item.imageurl}/>
 
       <div className="card-detail">
         <p className="name">{props.item.name}</p>
@@ -70,7 +65,7 @@ export default function Card(props) {
           <span className="bdaymsg">
             {currentMonth == props.item.dob.month &&
             currentDate == props.item.dob.date
-              ? "Happy Bithday"
+              ? "Happy Bithday To You💖"
               : ""}
           </span>
         </div>
