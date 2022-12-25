@@ -188,6 +188,13 @@ export default [
     image: "dinesh.jpg",
     dob: { year: 1993, month: 9, date: 28 },
   },
+  {
+    id: 28,
+    name: "Narayan",
+    interest: "Volleyball Player",
+    image: "narayan.png",
+    dob: { year: 1987, month: 7, date: 8 },
+  },
 
   
   
