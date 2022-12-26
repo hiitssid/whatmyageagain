@@ -31,7 +31,7 @@ export default [
     id: 5,
     name: "Rajiv",
     interest: "Computer Genius",
-    image: "rajiv.jpg",
+    imageurl: "https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/297170671_112533508213893_5665828631395948474_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=635xz3zfFJ4AX8y_yor&_nc_ht=scontent.fktm7-1.fna&oh=00_AfDiUxxfxMNEF2fMcrkdlzTLXZD_jZD5x8BpAa0SuTWlIw&oe=63AEB0B2",
     dob: { year: 1991, month: 5, date: 11 },
   },
   {
