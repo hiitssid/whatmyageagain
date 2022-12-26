@@ -171,7 +171,7 @@ export default [
     id: 25,
     name: "Amrit",
     interest: "All Rounder",
-    imageurl:"https://yt3.ggpht.com/ytc/AMLnZu9q0LlCvNr4Wyhqpolsoy0TarECKzbyiJjhvVaNRA=s900-c-k-c0x00ffffff-no-rj",
+    imageurl:"https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/213521802_4025659584156584_4085197256740278868_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yucvKiEezkgAX8qiJFp&_nc_ht=scontent.fktm7-1.fna&oh=00_AfAcy4wA9tDjbj7uNDGRRXDLpGWESqB-QuqEOqqUcJrZdg&oe=63AEE58E",
     dob: { year: 1988, month: 7, date: 10 },
   },
   {
@@ -185,14 +185,14 @@ export default [
     id: 27,
     name: "Dinesh",
     interest: "Germany",
-    image: "dinesh.jpg",
+    imageurl: "https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/249482146_3313595032201091_7854271355443361463_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=s72O6dTN4usAX_OpJp8&_nc_ht=scontent.fktm7-1.fna&oh=00_AfAWI7HZRe4OYFfSQ81pnpH8vVmEEIMbuxvIugKkhcozMA&oe=63AE4602",
     dob: { year: 1993, month: 9, date: 28 },
   },
   {
     id: 28,
     name: "Narayan",
     interest: "Volleyball Player",
-    image: "narayan.jpg",
+    imageurl: "https://scontent.fktm7-1.fna.fbcdn.net/v/t1.6435-9/89357760_2838151939636050_4846712766372773888_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=AOhavX87ddMAX9h4ct_&_nc_ht=scontent.fktm7-1.fna&oh=00_AfB54waOTfpjSn5raglUS-uBJGl9Ep7iPhyEaluSZk3jKQ&oe=63D115B5",
     dob: { year: 1987, month: 7, date: 8 },
   },
 

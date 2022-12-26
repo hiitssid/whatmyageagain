@@ -40,7 +40,7 @@ export default function Card(props) {
       className={currentMonth == props.item.dob.month &&
         currentDate == props.item.dob.date? "card hbd" : "card"}
     >
-      <img src={props.item.image ? `src/assets/${props.item.image}`: props.item.imageurl}/>
+      <img loading="lazy" src={props.item.image ? `src/assets/${props.item.image}`: props.item.imageurl}/>
 
       <div className="card-detail">
         <p className="name">{props.item.name}</p>
