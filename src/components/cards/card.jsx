@@ -1,7 +1,7 @@
 import "./card.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import React,{useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 AOS.init();
 export default function Card(props) {
   const todayDate = new Date();
@@ -33,14 +33,27 @@ export default function Card(props) {
     day = 31 + currentDate - props.item.dob.date;
   }
 
+  let daysOnEarth = age*365 + month*31 + day
 
   return (
-   
-    <div data-aos="zoom-in"
-      className={currentMonth == props.item.dob.month &&
-        currentDate == props.item.dob.date? "card hbd" : "card"}
+    <div
+      data-aos="zoom-in"
+      className={
+        currentMonth == props.item.dob.month &&
+        currentDate == props.item.dob.date
+          ? "card hbd"
+          : "card"
+      }
     >
-      <img loading="lazy" src={props.item.image ? `src/assets/${props.item.image}`: props.item.imageurl}/>
+      <img
+        loading="lazy"
+        alt={props.item.name}
+        src={
+          props.item.image
+            ? `src/assets/${props.item.image}`
+            : props.item.imageurl
+        }
+      />
 
       <div className="card-detail">
         <p className="name">{props.item.name}</p>
@@ -62,6 +75,7 @@ export default function Card(props) {
               : ``}
           </span>
           <span>{day > 1 ? `${day} Days` : day == 1 ? `${day} Day` : ``}</span>
+          <p>{daysOnEarth} days on 🌍</p>
           <span className="bdaymsg">
             {currentMonth == props.item.dob.month &&
             currentDate == props.item.dob.date

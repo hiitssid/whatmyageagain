@@ -8,7 +8,7 @@ export default function Footer() {
         style={{ textDecoration: "none" }}
       >
         {/* This project helped to understand props. */}
-        Last Updated : 16th December 2022
+        repo
       </a>
       </small>
   );
