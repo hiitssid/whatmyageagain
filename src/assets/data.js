@@ -214,7 +214,7 @@ export default [
   },
   {
     id: 29,
-    name: "Alibaba",
+    name: "Ablibaba",
     interest: "Love Life",
     imageurl:'https://picsum.photos/200',
     dob: { year: 2017, month: 6, date: 25 },
