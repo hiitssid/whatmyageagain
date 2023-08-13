@@ -33,7 +33,7 @@ export default function Card(props) {
     day = 31 + currentDate - props.item.dob.date;
   }
 
-  let daysOnEarth = age*365 + month*31 + day
+  let daysOnEarth = age * 365 + month * 31 + day;
 
   return (
     <div
@@ -49,9 +49,11 @@ export default function Card(props) {
         loading="lazy"
         alt={props.item.name}
         src={
-          props.item.image
-            ? `src/assets/${props.item.image}`
-            : props.item.imageurl
+          props.item.image !== ""
+            ? props.item.image
+              ? `src/assets/${props.item.image}`
+              : props.item.imageurl
+            : "https://picsum.photos/200"
         }
       />
 
