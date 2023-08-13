@@ -50,10 +50,8 @@ export default function Card(props) {
         alt={props.item.name}
         src={
           props.item.image !== ""
-            ? props.item.image
-              ? `src/assets/${props.item.image}`
-              : props.item.imageurl
-            : "https://picsum.photos/200"
+            ? props.item.image || props.item.imageurl
+            : "https://picsum.photos/200/300"
         }
       />
 
